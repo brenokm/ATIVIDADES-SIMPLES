@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro matriz[6][6]
+
+		para (inteiro l = 1 ; l <6;l++){
+			para (inteiro c = 1 ; c <6;c++){
+				escreva("Digite valor da ",l,"º Linha ",c,"º Coluna: ")
+				leia(matriz[l][c])
+				
+			}
+			
+		}
+		para (inteiro l = 1 ; l <6;l++){
+			para (inteiro c = 1 ; c <6;c++){
+				escreva("[",matriz[l][c], "]")
+				
+	}
+	escreva("\n")
+}
+	}
+}

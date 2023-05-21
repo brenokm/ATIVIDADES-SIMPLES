@@ -1,0 +1,39 @@
+programa
+{
+	inclua biblioteca Matematica
+   
+    funcao inicio()
+    {
+        real pes, alt, imc, arr
+        escreva("Informe seu peso: ")
+        leia (pes)
+        escreva("Informe sua altura: ")
+        leia (alt)
+
+        imc= pes/(alt*alt)
+        limpa()
+        arr=Matematica.arredondar(imc,2)
+        escreva("Seu imc é: ",arr,"\n")
+
+       
+
+         se (imc < 18.5){
+            escreva("Magreza")}
+            
+         senao se (imc >= 18.5 e imc<24.9 ){
+          escreva("Normal")}
+          
+         senao se(imc >= 25.0 e imc<29.9){
+         	escreva("Sobrepeso")}   
+         	
+         senao se(imc >= 30.0 e imc<34.9){
+         	escreva("Obesidade tipo 1")} 
+         	
+         senao se(imc >= 35.0 e imc<39.9){
+         	escreva("Obesidade tipo 2")} 
+         
+         senao {
+            escreva("Obesidade tipo 3")
+        }
+    }
+}

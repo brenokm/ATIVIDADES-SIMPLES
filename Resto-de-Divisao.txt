@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{     
+	     inteiro num,res, out
+		escreva("escreva seu 1º número")
+		leia(num)
+		escreva("escreva seu 2º número")
+		leia(out)
+	res = num % out
+			escreva ("resto", res)
+			
+	}
+	
+}

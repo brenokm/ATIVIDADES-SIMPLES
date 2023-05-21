@@ -1,0 +1,149 @@
+11111111111111111111111111111111111111111111111111
+programa
+{
+// idade de 10 pessoas VV
+	
+	funcao inicio()
+	{
+          inteiro idade
+          para(inteiro i= 1; i <=10; i++){
+         	escreva("\nInforme a idade da ",i,"º pessoa: ")
+         	leia(idade)
+          
+         	se(idade >= 18){
+         		escreva("Cidadão maior de idade")
+         	}
+         	senao{
+         		escreva("cidadao menor de idade")
+         	}
+         }
+         
+
+
+		
+	}
+}
+ ------------------------------------------
+222222222222222222222222222222222222222222222222222222
+programa
+{
+	inclua biblioteca Matematica--> mat
+	
+	funcao inicio()
+	{
+    // compra do cliente  VV
+          real parce, senha,pague, res, arr
+          
+		escreva("Insira o valor da compra: ")
+		leia(pague)
+          limpa()
+		escreva("Insira a quantidade de vezes a ser parcelado: ")
+		leia(parce)
+          limpa()
+		escreva("Insira sua senha")
+		leia(senha)
+          limpa()
+          res= pague / parce
+          
+          arr=mat.arredondar(res,2)
+          
+		para (inteiro i = 1; i <= parce ; i++){
+		escreva("\nO valor da ",i,"º parcela é: ", arr)}
+	}
+}
+--------------------------
+3333333333333333333333333333333333333333
+programa
+
+{
+      
+	
+	funcao inicio()
+	{ // estela   VV
+   
+         inteiro num, opcao
+
+
+
+		escreva ("Informe seu numero: ")
+		leia(num)
+
+          escreva( "1 para crescente e  2 para decescente")
+		leia(opcao)
+
+
+		escolha(opcao){
+
+	caso 1:
+
+		para
+    (inteiro i= 1 ; i >= num; i++ ){
+        escreva( "seu numero é crescente")
+      
+    pare
+    }
+	caso 2:
+	  para
+    (inteiro i= 1 ; i <= num; i-- ){
+       escreva( "seu numeo é decrescente")
+     
+    pare
+}
+}
+}
+}
+-----------------------------------------
+44444444444444444444444444444444444444444444
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade, maioridade=0, menoridade=0
+		
+		para(inteiro i=1 ; i<= 5 ; i++){
+		escreva ("digite a ",i,"º idade")
+		leia(idade)
+		se(i == 1 ){
+		maioridade= idade
+		menoridade = idade
+		}
+
+		senao{
+			se (idade>maioridade){ 
+				maioridade= idade
+		    se (idade<menoridade){
+		    	menoridade = idade
+		    }
+			}
+
+}
+}
+ escreva("o maior é ", )
+	}
+}
+----------------------------
+ 555555555555555555555555555555555555555555555555555
+programa
+{
+ // Algoritmo que verifica se um número é par ou ímpar. vv
+	
+	funcao inicio()
+	{
+          inteiro res, num
+	      
+		escreva("ESCREVA SEU NUMERO")
+		leia (num)
+		
+		res = num % 2
+
+		se( res == 0 ){ 
+	     escreva ("seu numero é par")
+		}
+		senao {
+		escreva("seu numero é impar")
+			
+		}
+		
+	}
+}
